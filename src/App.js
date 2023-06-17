@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
+import memories from './image/memory.png';
 
 const App = () => {
   return (
