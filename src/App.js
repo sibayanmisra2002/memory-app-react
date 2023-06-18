@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
 import {useDispatch} from 'react-redux';
 
@@ -9,7 +9,7 @@ import memories from './image/memory.png';
 import useStyles from './styles';
 
 const App = () => {
-
+const [currentId, setCurrentId] = useState(0);
 const classes = useStyles();
 const dispatch = useDispatch();
 
